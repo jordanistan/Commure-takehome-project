@@ -88,7 +88,48 @@ $ python3 main.py
 
 # The server will initialize in the <http://localhost:80>
 ```
+## Output when testing 
 
+
+$ python3 main.py
+ 
+ Here is what the python script will output:
+
+ ```bash
+#############################################################################################################/n
+Go to http://localhost:80 in a browser to see the website!
+Container ID:  d66d5afdf942e733c050cb57bd4318b9f75943a5490369c2f19adba9ea63e803
+Container Status:  running
+#############################################################################################################
+```
+Let's `curl localhost` to make sure we are seeing the HTML output of the docker container. 
+
+$ curl localhost:80
+
+```bash
+<html>
+  <head>
+    <title>Commure Rocks!</title> 
+  </head>
+    <style>
+      body {
+        background-image: url(https://www.commure.com/wp-content/uploads/2022/10/Hero-Image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+            .center {
+        text-align: center;
+      }
+    </style>
+  <body>
+    <div class="center">
+    <h1>Commure Rocks! WOot WOOt!! </h1>
+    <h2> Powered by Awesomeness </h2>
+    <button onclick="window.location.href = 'https://www.commure.com/';">Want to know more? Click Me</button>
+    </div>
+  </body>
+</html>
+```
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
