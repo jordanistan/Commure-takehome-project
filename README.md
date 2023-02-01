@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Commure" />
+  <img src="./Hero-Image.png" alt="Commure" />
 
   &#xa0;
 
@@ -66,8 +66,6 @@ The following tools were used in this project:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Python's PYPI](https://pypi.org/project/docker/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
